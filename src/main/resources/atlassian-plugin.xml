@@ -21,7 +21,6 @@
 
     <!-- Event listeners -->    
     <component key="repoChangeListener" class="com.nerdwin15.stash.webhook.RepositoryChangeListener"/>
-    <component key="pullRequestRescopeListener" class="com.nerdwin15.stash.webhook.PullRequestEventListener" />
 
     <component key="settingsRetriever" class="com.nerdwin15.stash.webhook.service.ConcreteSettingsService" />
     <component key="jenkinsNotifier" class="com.nerdwin15.stash.webhook.Notifier"/>
